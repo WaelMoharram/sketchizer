@@ -1,0 +1,131 @@
+body{
+    background-color: #260b6c;
+}
+.row{
+    margin-left: 150px;
+}
+
+.logo{
+    width: 8.375rem;
+    height: 3.688rem;
+    object-fit: contain;
+    margin-top: 10px;
+}
+.top-div{
+
+    background-image: url("../assets/img/bg-top.png");
+    background-size: cover;
+    padding-bottom: 60px;
+}
+.bottom-div{
+    background-image: url("../assets/img/bg-botton.png");
+    background-size: cover;
+    bottom: 0;
+}
+
+.btn-cv{
+    border-radius: 6.4px;
+    border: solid 2.8px #fcb828;
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3px;
+    letter-spacing: normal;
+    color: #ffffff!important;
+    margin-top: 10px;
+}
+
+.name{
+    width: 28.813rem;
+    height: 3.688rem;
+    font-size: 3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.title{
+    width: 8.438rem;
+    height: 1.438rem;
+    opacity: 0.8;
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    color: #ffffff;
+
+}
+.content{
+    width: 28.688rem;
+    height: 4.313rem;
+    opacity: 0.8;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+
+}
+.content2{
+    width: 28.688rem;
+    height: 5.25rem;
+    font-size: 1.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    color: #ffffff;
+
+}
+
+.hire-me {
+    width: 12.375rem;
+    height: 2.813rem;
+    font-size: 3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    color: #fcb828;
+    text-decoration: none !important;
+}
+
+.hire-me:hover {
+    color: white;
+}
+.social{
+    display: inline;
+}
+.social>a{
+
+    padding: 15px;
+    color: #4829c2;
+}
+.social>a:hover{
+    color: #fcb828;
+}
+
+ul{
+    padding-left: 0;
+}
+
+#whatsapp .top { z-index: 999; position: fixed; margin: 0px; color: #ffffff; background: #25D366; position: fixed; bottom: 50px; right: 25px; z-index: 999; font-size: 25px; width: 50px; height: 50px; text-align: center; line-height: 25px; -webkit-border-radius: 90px; -moz-border-radius: 90px; border-radius: 90px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
+
+@media (max-width: 480px) {
+
+    .bottom-div{
+        background-image: none;
+    }
+    .row{
+        margin-left: 0px;
+    }
+}
